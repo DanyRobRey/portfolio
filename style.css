@@ -1,0 +1,1108 @@
+/* Este repositório base fué creado para ayudarte en caso que no sepas como comenzar, recuerda que el portafolio es tu carta de presentación y debes darle tu cara, por eso te invitamos a personalizarlo según tu estilo y preferencias no te limites apenas al layout propuesto en figma  
+*/
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-menu: #ffffff;
+    --color-de-link: #000000;
+    --color-sobre-mi: #EAF2FD;
+    --color-de-contacto: #464646;
+    --color-enviar-mensaje: #2A7AE4;
+    --color-pasive-place-holder: #A2A2A2;
+}
+
+body {
+    background-color: var(--color-de-fondo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+    max-width: 100%;
+}
+
+/* html body{
+    width: 100%;
+    max-width: 100vp;
+    overflow-x: hidden;
+} */
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+* {
+    box-sizing: inherit;
+    /* Aplica box-sizing a todos los elementos */
+}
+
+/* ------------------------------ Sección Menú -------------------------------*/
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--color-de-fondo-menu);
+    padding-left: 10.55%;
+    padding-right: 10.55%;
+    gap: 24.236%;
+    /*  349px */
+    width: 100%;
+}
+
+.cabecera__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.cabecera__logo {
+    max-width: 80px;
+    /* Ajuste para pantallas pequeñas */
+}
+
+.cabecera__titulo {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.navegacion__lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    gap: 2rem;
+    margin: 0;
+}
+
+.navegacion__elemento a {
+    font-size: 1rem;
+}
+
+.rodapie {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-de-fondo-menu);
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    height: 102px;
+}
+
+.rodapie__texto {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.rodapie__año {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* ------------------------------ Sección Presentación ------------------------------*/
+
+.presentacion {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 10.55%;
+    padding-right: 10.55%;
+    justify-content: center;
+    height: 432px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+.presentacion__contenedor {
+    display: flex;
+    flex-direction: column;
+    padding-top: 61px;
+    padding-bottom: 61px;
+    padding-right: 17px;
+    gap: 24px;
+}
+
+.presentacion__titulo {
+    font-size: 3.25rem;
+    margin: 0;
+}
+
+.presentacion__subtitulo {
+    font-size: 1.375rem;
+    margin: 0;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-left: 0;
+    gap: 32px
+}
+
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+
+
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--color-sobre-mi);
+    padding-left: 10.55%;
+    padding-right: 10.55%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.sobre-mi__titulo {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 9.51%;
+}
+
+.sobre-mi__texto {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 52.15%;
+}
+
+.sobre-mi__firma {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 9.72%;
+}
+
+/*------------------------------ Sección de Habilidades ------------------------------*/
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10.55%;
+    padding-right: 10.55%;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+.habilidades__titulo {
+    margin: 0;
+}
+
+.habilidades__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 174px;
+    flex-wrap: wrap;
+}
+
+
+.habilidades__elemento {
+    background-color: #ffffff;
+    height: 100%;
+    width: 15.49%;
+    position: relative;
+}
+
+.habilidades__icono {
+    position: absolute;
+    bottom: 43px;
+    left: 16px;
+}
+
+.habilidades__nombre {
+    margin: 0;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+/*------------------------------ Sección de Aficiones --------------------------------*/
+.aficiones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10.55%;
+    padding-right: 10.55%;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    gap: 32px;
+}
+
+.aficiones__titulo {
+    margin: 0;
+
+}
+
+.aficiones__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 174px;
+    flex-wrap: wrap;
+}
+
+.aficiones__elemento {
+    background-color: #ffffff;
+    height: 100%;
+    width: 15.49%;
+    position: relative;
+}
+
+.aficiones__icono {
+    position: absolute;
+    bottom: 43px;
+    left: 16px;
+}
+
+.aficiones__nombre {
+    margin: 0;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+/*------------------------------ Sección de Formación académica --------------------------------*/
+.formacion {
+    display: flex;
+    background-color: var(--color-sobre-mi);
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10.55%;
+    padding-right: 10.55%;
+    padding-top: 82px;
+    padding-bottom: 82px;
+    gap: 32px;
+}
+
+.formacion__titulo {
+    margin: 0;
+}
+
+.formacion__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 347px;
+}
+
+.formacion__elemento {
+    width: 32.39%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.formacion__espacio__icono {
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-de-fondo-menu);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacion__nombre__detalle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.formacion__nombre {
+    margin: 0;
+}
+
+.formacion__detalle {
+    margin: 0;
+}
+
+/*------------------------------ Sección de Proyectos --------------------------------*/
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10.55%;
+    padding-right: 10.55%;
+    padding-bottom: 32px;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+.proyectos__titulo {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.proyectos__titulo__listado {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+}
+
+/*------------------------------ Proyecto 1 y 3--------------------------------*/
+.proyectos__encriptador {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+
+.proyectos__encriptador__detalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.proyectos__encriptador__nombre {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.proyectos__encriptador__descripcion {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.proyectos__encriptador__botones {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.proyectos__encriptador__repositorio {
+    background-color: transparent;
+    border: 1px solid var(--color-enviar-mensaje);
+    width: 116px;
+    height: 51px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: var(--color-enviar-mensaje);
+    transition: all 0.2s ease;
+}
+
+.proyectos__encriptador__repositorio:active {
+    background-color: var(--color-enviar-mensaje);
+    color: var(--color-de-fondo-menu);
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.proyectos__encriptador__demo {
+    background-color: var(--color-enviar-mensaje);
+    border: 1px solid var(--color-enviar-mensaje);
+    width: 116px;
+    height: 51px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: var(--color-de-fondo-menu);
+    transition: all 0.2s ease;
+}
+
+.proyectos__encriptador__demo:active {
+    background-color: transparent;
+    color: var(--color-enviar-mensaje);
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*------------------------------ Proyecto 2 y 4 --------------------------------*/
+
+.proyectos__juego {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 16px;
+}
+
+.proyectos__juego__detalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.proyectos__juego__nombre {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.proyectos__juego__descripcion {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.proyectos__juego__botones {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.proyectos__juego__repositorio {
+    background-color: transparent;
+    border: 1px solid var(--color-enviar-mensaje);
+    width: 116px;
+    height: 51px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: var(--color-enviar-mensaje);
+    transition: all 0.2s ease;
+}
+
+.proyectos__juego__repositorio:active {
+    background-color: var(--color-enviar-mensaje);
+    color: var(--color-de-fondo-menu);
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.proyectos__juego__demo {
+    background-color: var(--color-enviar-mensaje);
+    border: 1px solid var(--color-enviar-mensaje);
+    width: 116px;
+    height: 51px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: var(--color-de-fondo-menu);
+    transition: all 0.2s ease;
+}
+
+.proyectos__juego__demo:active {
+    background-color: transparent;
+    color: var(--color-enviar-mensaje);
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/*------------------------------ Sección de Contacto ---------------------------------*/
+.contacto {
+    padding-left: 10.55%;
+    padding-right: 10.55%;
+    padding-top: 129.5px;
+    padding-bottom: 65.5px;
+    background-color: var(--color-sobre-mi);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 788px;
+}
+
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.contacto__mensaje {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.contacto__titulo {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--color-de-contacto);
+}
+
+.contacto__subtitulo {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--color-de-contacto);
+}
+
+.contacto__mensaje {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 18.78px;
+}
+
+.contacto__campo {
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    resize: none;
+    height: 56px;
+    padding-left: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    caret-color: var(--color-enviar-mensaje);
+}
+
+.contacto__campo:focus {
+    border-bottom: 2px solid var(--color-enviar-mensaje);
+}
+
+.contacto__asunto:focus {
+    border-bottom: 2px solid var(--color-enviar-mensaje);
+}
+
+.contacto__campo__textarea:focus {
+    border-bottom: 2px solid var(--color-enviar-mensaje);
+}
+
+.contacto__asunto {
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    resize: none;
+    padding-left: 12px;
+    height: 56px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    caret-color: var(--color-enviar-mensaje);
+}
+
+.contacto__campo__textarea {
+    height: 133px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid transparent;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+    caret-color: var(--color-enviar-mensaje);
+    padding-left: 12px;
+    padding-top: 16px;
+}
+
+.contacto__boton {
+    width: 144px;
+    height: 51px;
+    background-color: var(--color-enviar-mensaje);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-de-fondo-menu);
+    transition: all 0.2s ease;
+}
+
+.contacto__boton:active {
+    background-color: var(--color-de-fondo);
+    color: var(--color-enviar-mensaje);
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contacto__campo,
+.contacto__asunto,
+.contacto__campo__textarea {
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contacto__campo__textarea {
+    resize: none;
+}
+
+.floating-label {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-size: 16px;
+    color: var(--color-pasive-place-holder);
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.contacto__campo:focus+.floating-label,
+.contacto__asunto:focus+.floating-label,
+.contacto__campo__textarea:focus+.floating-label,
+.contacto__campo:not(:placeholder-shown)+.floating-label,
+.contacto__asunto:not(:placeholder-shown)+.floating-label,
+.contacto__campo__textarea:not(:placeholder-shown)+.floating-label {
+    top: 5px;
+    left: 10px;
+    font-size: 12px;
+    color: var(--color-enviar-mensaje);
+}
+
+input:valid+.floating-label,
+textarea:valid+.floating-label {
+    top: -10px;
+    font-size: 12px;
+    color: #333;
+}
+
+/* ------------------------------ Responsividad ---------------------------------------*/
+
+/* Tablets y pantallas más grandes */
+@media (min-width: 768px) and (max-width: 1190px) {
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 52.23%;
+        /*  402px */
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .cabecera__logo {
+        max-width: 100px;
+    }
+
+    .navegacion__lista {
+        display: flex;
+        flex-direction: row;
+        /* gap: 1rem; */
+        margin-top: 0;
+    }
+
+    .navegacion__elemento {
+        display: none;
+    }
+
+    .navegacion__elemento:last-child {
+        display: block;
+    }
+
+
+    .presentacion {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin: 0;
+        height: 210px;
+    }
+
+    .presentacion__titulo {
+        font-size: 1.375rem;
+        line-height: 25.83px;
+    }
+
+    .presentacion__subtitulo {
+        font-size: 1rem;
+        line-height: 18.78px;
+    }
+
+    .presentacion__contenedor {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-right: 2rem;
+        gap: 0.5rem;
+    }
+
+
+
+    .presentacion__foto {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .sobre-mi {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .sobre-mi__titulo {
+        width: 100%;
+    }
+
+    .sobre-mi__texto {
+        width: 100%;
+    }
+
+    .sobre-mi__firma {
+        width: 8.75rem;
+        height: 3.25rem;
+    }
+
+    .habilidades {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 390px;
+    }
+
+    .habilidades__titulo {
+        font-size: 22px;
+    }
+
+    .habilidades__lista {
+        height: 118px;
+        flex-wrap: wrap;
+        gap: 1rem 2rem;
+    }
+
+    .habilidades__lista>li {
+        flex: 0 0 30%;
+    }
+
+    .aficiones {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 390px;
+    }
+
+    .aficiones__titulo {
+        font-size: 22px;
+    }
+
+    .aficiones__lista {
+        height: 118px;
+        flex-wrap: wrap;
+        gap: 1rem 2rem;
+    }
+
+    .aficiones__lista>li {
+        flex: 0 0 30%;
+    }
+
+    .formacion {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 291px;
+    }
+
+    .formacion__elemento {
+        gap: 8px;
+    }
+
+    .formacion__nombre__detalle {
+        gap: 8px;
+    }
+
+    .formacion__titulo {
+        font-size: 22px;
+    }
+
+    .formacion__lista {
+        height: 169px;
+    }
+
+    .formacion__icono {
+        width: 84px;
+        height: 58px;
+    }
+
+    .formacion__nombre {
+        font-size: 16px;
+    }
+
+    .formacion__detalle {
+        font-size: 14px;
+    }
+
+    .proyectos {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .proyectos__titulo {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 22px;
+    }
+
+    .proyectos__titulo__listado {
+        gap: 4rem;
+    }
+
+    .proyectos__encriptador {
+        flex-direction: column;
+    }
+
+    .proyectos__juego {
+        flex-direction: column;
+    }
+
+    .contacto {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 637px;
+        display: block;
+    }
+
+    .contacto__imagen {
+        display: none;
+    }
+
+    .contacto__titulo {
+        font-size: 22px;
+    }
+
+    .contacto__subtitulo {
+        font-size: 16px;
+    }
+
+    .input-container {
+        margin: 0;
+    }
+}
+
+/* Pantallas Mobile */
+@media (min-width: 0px) and (max-width: 768px) {
+
+    .cabecera {
+        gap: 15%;
+        /*  54px */
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        height: 56px;
+    }
+
+    .cabecera__titulo {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .navegacion__elemento {
+        display: none;
+    }
+
+    .navegacion__elemento:last-child {
+        display: block;
+    }
+
+    .presentacion {
+        margin: 0;
+        height: 294px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .presentacion__foto {
+        height: 98px;
+        width: 98px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .presentacion__titulo {
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .presentacion__subtitulo {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .presentacion__contenedor {
+        gap: 1rem;
+        padding: 0;
+        width: 100%;
+    }
+
+    .redes {
+        font-size: 16px;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .sobre-mi {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+
+    .sobre-mi__titulo {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .sobre-mi__texto {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .sobre-mi__firma {
+        width: 8.75rem;
+        height: 3.25rem;
+    }
+
+    .habilidades {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        height: 514px;
+    }
+
+    .habilidades__titulo {
+        font-size: 22px;
+    }
+
+    .habilidades__lista {
+        gap: 2rem 1rem;
+    }
+
+    .habilidades__elemento {
+        flex: 1 1 calc(50% - 10px);
+        width: 100%;
+        height: 118px;
+    }
+
+    .aficiones {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        height: 514px;
+    }
+
+    .aficiones__titulo {
+        font-size: 22px;
+    }
+
+    .aficiones__lista {
+        gap: 2rem 1rem;
+    }
+
+    .aficiones__elemento {
+        flex: 1 1 calc(50% - 10px);
+        width: 100%;
+        height: 118px;
+    }
+
+    .formacion {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 661px;
+    }
+
+    .formacion__lista {
+        flex-direction: column;
+        height: 539px;
+        width: 100%;
+    }
+
+    .formacion__icono {
+        width: 84px;
+        height: 58px;
+    }
+
+    .formacion__elemento {
+        width: 100%;
+    }
+
+    .formacion__nombre {
+        font-size: 16px;
+    }
+
+    .formacion__detalle {
+        font-size: 14px;
+    }
+
+
+    .proyectos {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .proyectos__titulo {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 22px;
+    }
+
+    .proyectos__titulo__listado {
+        gap: 4rem;
+    }
+
+    .proyectos__encriptador {
+        flex-direction: column;
+    }
+
+    .proyectos__juego {
+        flex-direction: column;
+    }
+
+    .contacto {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 675px;
+        display: block;
+    }
+
+    .contacto__imagen {
+        display: none;
+    }
+
+    .contacto__titulo {
+        font-size: 22px;
+    }
+
+    .contacto__subtitulo {
+        font-size: 16px;
+    }
+
+    .input-container {
+        margin: 0;
+    }
+
+}
