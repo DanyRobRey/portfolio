@@ -18,8 +18,6 @@ Este proyecto es mi propuesta para el Challenge ONE | Front End. A continuación
 - **HTML Estructurado**: Utilicé la base del archivo `index.html`, pero realicé modificaciones para personalizar las secciones, integrando mejor mi información y mis proyectos.
   
 - **CSS Personalizado**: El archivo `style.css` ha sido ampliado y modificado para ajustarse a mi estilo visual, con especial énfasis en tipografía, paleta de colores y disposición de los elementos.
-  
-- **Validación de Formulario**: Como un desafío adicional, implementé una lógica personalizada en el archivo `script.js` para validar el formulario de contacto, asegurando que el usuario ingrese información válida antes de enviar.
 
 ### Estructura del proyecto
 ---
